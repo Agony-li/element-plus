@@ -7,6 +7,7 @@
     default-active="2"
     class="el-menu-vertical-demo"
     :collapse="isCollapse"
+    popper-effect="light"
     @open="handleOpen"
     @close="handleClose"
   >
